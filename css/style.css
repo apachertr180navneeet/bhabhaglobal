@@ -80,7 +80,7 @@ section, header, footer {
   overflow-x: clip;
 }
 
-/* Responsive container constraints with generous desktop side margins */
+/* Responsive container constraints with balanced, elegant desktop side margins */
 .container {
   width: 100%;
   margin-right: auto;
@@ -104,24 +104,32 @@ section, header, footer {
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+    max-width: 1240px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 }
 
 @media (min-width: 1400px) {
   .container {
-    max-width: 1280px;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    max-width: 1440px;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1620px;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
@@ -383,9 +391,9 @@ img {
   padding-top: 130px;
   padding-bottom: 70px;
   background-color: var(--bg-dark-base);
-  background-image: linear-gradient(180deg, rgba(6, 20, 39, 0.72) 0%, rgba(6, 20, 39, 0.88) 65%, #061427 100%), url('../assets/images/hero-bg.jpg');
+  background-image: linear-gradient(90deg, rgba(4, 12, 23, 0.88) 0%, rgba(4, 12, 23, 0.65) 42%, rgba(4, 12, 23, 0.12) 72%, rgba(4, 12, 23, 0.05) 100%), linear-gradient(180deg, rgba(4, 12, 23, 0.25) 0%, transparent 60%, #061427 100%), url('../assets/images/hero-bg.jpg');
   background-size: cover;
-  background-position: center top;
+  background-position: right center;
   background-repeat: no-repeat;
   color: #ffffff;
   display: flex;
@@ -1281,6 +1289,7 @@ img {
   .hero-section {
     padding-top: 110px;
     padding-bottom: 50px;
+    background-position: 75% center;
   }
 
   .hero-title {
