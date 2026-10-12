@@ -326,14 +326,24 @@ img {
 }
 
 .navbar-brand-logo {
-  height: 52px;
+  height: 72px;
   width: auto;
   transition: var(--transition-smooth);
 }
 
+.navbar-site.scrolled .navbar-brand-logo {
+  height: 58px;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand-logo {
+    height: 62px;
+  }
+}
+
 @media (max-width: 576px) {
   .navbar-brand-logo {
-    height: 42px;
+    height: 52px;
   }
 }
 
