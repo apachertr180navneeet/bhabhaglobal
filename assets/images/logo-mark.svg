@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldMarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF0B9"/>
+      <stop offset="25%" stop-color="#E5C17D"/>
+      <stop offset="60%" stop-color="#C59B48"/>
+      <stop offset="90%" stop-color="#9E7326"/>
+      <stop offset="100%" stop-color="#DFBA73"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <!-- Outer Octagon / Diamond Frame -->
+    <rect x="10" y="10" width="80" height="80" rx="10" fill="none" stroke="url(#goldMarkGrad)" stroke-width="2.2" opacity="0.8"/>
+    <rect x="16" y="16" width="68" height="68" rx="6" fill="none" stroke="url(#goldMarkGrad)" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Stylized Luxury "B" Monogram -->
+    <path d="M35 26 L35 74 M42 26 L42 74" stroke="url(#goldMarkGrad)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Top Bowl -->
+    <path d="M42 26 C60 26, 71 31, 71 44 C71 52, 60 55, 42 55" fill="none" stroke="url(#goldMarkGrad)" stroke-width="3.2" stroke-linecap="round"/>
+    <!-- Bottom Bowl -->
+    <path d="M42 55 C64 55, 76 60, 76 70 C76 79, 61 74, 42 74" fill="none" stroke="url(#goldMarkGrad)" stroke-width="3.2" stroke-linecap="round"/>
+    
+    <!-- Geometric accents -->
+    <path d="M25 35 L48 22 M25 65 L48 78" stroke="url(#goldMarkGrad)" stroke-width="1.8" stroke-linecap="round" opacity="0.75"/>
+    <polygon points="51,46 54,49 51,52 48,49" fill="url(#goldMarkGrad)"/>
+    <circle cx="18" cy="18" r="2" fill="url(#goldMarkGrad)"/>
+    <circle cx="82" cy="18" r="2" fill="url(#goldMarkGrad)"/>
+    <circle cx="18" cy="82" r="2" fill="url(#goldMarkGrad)"/>
+    <circle cx="82" cy="82" r="2" fill="url(#goldMarkGrad)"/>
+  </g>
+</svg>
