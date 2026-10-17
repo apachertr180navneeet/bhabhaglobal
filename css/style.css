@@ -403,7 +403,7 @@ img {
   background-color: var(--bg-dark-base);
   background-image: linear-gradient(90deg, rgba(4, 12, 23, 0.88) 0%, rgba(4, 12, 23, 0.65) 42%, rgba(4, 12, 23, 0.12) 72%, rgba(4, 12, 23, 0.05) 100%), linear-gradient(180deg, rgba(4, 12, 23, 0.25) 0%, transparent 60%, #061427 100%), url('../assets/images/hero-bg.jpg');
   background-size: cover;
-  background-position: right center;
+  background-position: center center;
   background-repeat: no-repeat;
   color: #ffffff;
   display: flex;
@@ -1299,7 +1299,7 @@ img {
   .hero-section {
     padding-top: 110px;
     padding-bottom: 50px;
-    background-position: 75% center;
+    background-position: 60% center;
   }
 
   .hero-title {
